@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@200;400&display=swap");
+
+:root {
+  --scrollerGrey: rgb(219, 219, 219);
+  --lightGrey: rgb(227, 227, 227);
+  --darkerGrey: rgb(200, 200, 200);
+  --tmdbDarkBlue: rgb(3, 37, 65);
+  --tmdbLightBlue: 1, 180, 228;
+  --tmdbLighterGreen: rgb(192, 254, 207);
+  --tmdbLightGreen: rgb(30, 213, 169);
+  --tmdbLogoGreen: rgb(144, 206, 161);
+  --tmdbLogoOrange: rgb(253, 193, 112);
+  --tmdbLogoRed: rgb(217, 59, 99);
+  --accountSilver: rgb(149, 149, 149);
+  --accountPink: rgb(234, 20, 140);
+  --accountPurple: rgb(128, 91, 231);
+  --accountGreen: rgb(1, 210, 119);
+  --accountTeal: rgb(1, 198, 172);
+  --accountLightBlue: rgb(1, 180, 228);
+  --accountBlue: rgb(1, 119, 210);
+  --accountOrange: rgb(210, 119, 1);
+  --accountYellow: rgb(210, 144, 1);
+  --accountRed: rgb(212, 2, 66);
+  --imageBorderRadius: 8px;
+  --maxPrimaryPageWidth: 1400px;
+  --btn_color: rgb(30, 213, 169);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+li {
+  list-style-type: none;
+}
+::-webkit-scrollbar {
+  height: 10px;
+  transition: all 0.4s ease-in-out;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(214, 212, 212);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(29, 129, 228);
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+@media (min-width: 320px) {
+  .container {
+    width: 100%;
+    margin: 0 40px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1300px;
+  }
+}

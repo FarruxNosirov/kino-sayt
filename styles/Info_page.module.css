@@ -1,0 +1,286 @@
+.Info_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/1WX8kxIIECPNAqbieVurqfpjxoo.jpg");
+  background-position: right -200px top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 510px;
+}
+.Info_page_container {
+  background-image: linear-gradient(
+    to right,
+    rgba(52.5, 199.5, 220.5, 1) 150px,
+    rgba(52.5, 199.5, 220.5, 0.84) 100%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.single_column {
+  padding: 30px 40px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+.images_inner {
+  display: flex;
+  color: white;
+  box-sizing: border-box;
+}
+.poster_wraper {
+  border-width: 0px;
+  min-width: 300px;
+  width: 300px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: var(--imageBorderRadius);
+}
+.imga_contexs {
+  display: block;
+  min-width: 300px;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.imga_contexs img {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-width: 0px;
+  outline: none;
+}
+.heder_poster_wraper {
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+}
+.heder_poster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+  box-sizing: border-box;
+  padding-left: 40px;
+  color: white;
+}
+.title {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.title .title_name {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+  box-sizing: border-box;
+}
+.title_name a {
+  font-weight: 700;
+  color: white;
+  font-size: 2.2rem;
+}
+.title_name span {
+  opacity: 0.8;
+  font-weight: 400;
+}
+.facts {
+  display: flex;
+  color: white;
+  box-sizing: border-box;
+  align-items: center;
+}
+.facts .one {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  align-content: center;
+  padding: 3px 4px !important;
+  line-height: 1;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+.facts .two {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 1em;
+  line-height: 1;
+  margin-left: 7px;
+}
+.actions {
+  position: relative;
+  width: 100%;
+}
+.actions_ul {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.actions_ul .chart {
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 68px;
+  margin-right: 20px;
+  position: relative;
+}
+.chart .lset_prosent {
+  width: 68px;
+  height: 68px;
+  display: inline-block;
+  transition: transform 0.2s;
+  transform: scale(1);
+  color: white;
+  box-sizing: border-box;
+  background-color: black;
+  border-radius: 50%;
+  transition: all 3ms ease-in-out;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.chart .lset_prosent:hover {
+  transform: scale(1.1);
+}
+.chart .text {
+  font-weight: 700;
+  margin-left: 6px;
+  white-space: pre-line;
+}
+.tooltrip {
+  padding: 3px 0;
+  margin-right: 20px;
+  color: #fff;
+  box-sizing: border-box;
+}
+.tooltrip a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  background: rgba(3, 37, 65, 1);
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  position: relative;
+}
+.tooltrip a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+}
+.tooltrip p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  background: rgba(3, 37, 65, 1);
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  position: relative;
+}
+.tooltrip p span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.heder_info {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+}
+
+.heder_info h3 {
+  width: 100%;
+  margin: 8px 0 8px 0;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: white;
+}
+.overviw p {
+  font-size: 1rem;
+}
+.people {
+  margin-top: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+}
+.people p:nth-of-type(1) {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.people p:nth-of-type(2) {
+  font-size: 0.9em;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}

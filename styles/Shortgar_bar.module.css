@@ -1,0 +1,40 @@
+.Shortgar_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 64px;
+  height: 46px;
+  border-bottom: 1px solid var(--primaryColor);
+}
+.bar_ul {
+  height: 46px;
+  background-color: #fff;
+  font-weight: 600;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bar_ul .bar_ul_item {
+  padding: 6px 0 4px 0;
+  margin-right: 40px;
+  color: #000;
+  font-weight: 400;
+  cursor: default;
+  box-sizing: border-box;
+  position: relative;
+}
+.GrBottomCorner {
+  transform: rotate(45deg);
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.25rem;
+  margin-right: -0.25rem;
+  font-weight: bold;
+}
